@@ -4,17 +4,15 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // int has a width of 32 (4 bytes)
-        int myIntValue = 5 / 2;
+        // Pounds to Kilograms Converter
+        double kilogramsPerPound = 0.45359237d;
+        double myPounds = 200d;
 
-        // float has a width of 32 (4 bytes)
-        float myFloatValue = 5f / 3f; // 7 digit precision
+        double totalKiloGrams = kilogramsPerPound * myPounds;
 
-        // double has a width of 64 (8 bytes)
-        double myDoubleValue = 5d / 3d; // 16 digit precision
+        System.out.println(myPounds + " Pounds is equal to "+ totalKiloGrams + " in Kilograms");
 
-        System.out.println("myIntValue divided by 2 = " + myIntValue);
-        System.out.println("myFloatValue divided by 2f = " + myFloatValue);
-        System.out.println("myDoubleValue divided by 2d = " + myDoubleValue);
+        // Google produced 90.7185 ;-)
+        double pi = 3.1415927d;
     }
 }
