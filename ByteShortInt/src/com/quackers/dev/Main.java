@@ -4,21 +4,20 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // int has a width of 32 (Integer)
-        int myMinValue = -2147483648;
-        int myMaxValue = 2147483647;
-        int myTotal = (myMaxValue / 5001000);
-        System.out.println("my int total is " + myTotal);
+        // byte variable
+        byte myByte = 40;
 
-        // byte has a width of 8
-        byte myByteValue = -128;
-        byte myNewByteValue = (byte) (myByteValue / 2);
-        System.out.println("my new byte value is " + myNewByteValue);
+        // short variable
+        short myShort = 20;
 
-        // short has a width of 16
-        short myShortValue = 32767;
+        // int variable
+        int myInt = 30;
 
-        // long has a width of 64
-        long myLongValue = 9223372036854775807L;
+        // long variable
+        long myLongTotal = 50000L + (10L * (myByte + myShort + myInt));
+        short myShortTotal = (short) (1000 + 10 * (myByte + myShort + myInt));
+
+        System.out.println(myLongTotal);
+        System.out.println(myShortTotal);
     }
 }
