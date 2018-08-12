@@ -1,0 +1,16 @@
+http://bit.ly/psjdkdownload # for the latest JDK download
+
+https://netbeands.org/downloads # stand-alone with varying Java platform support
+
+https://docs.oracle.com/javase/10/docs/api/overview-summary.html # Java® Platform, Standard Edition & Java Development Kit
+Version 10 API Specification
+
+http://bit.ly/intellijdownload
+
+http://bit.ly/psjavadoc
+
+http://bit.ly/psjavafp
+
+http://bit.ly/pstypeconversion
+
+Use "psvm" in IntelliJ IDEA = shortcut to produce Main Method
