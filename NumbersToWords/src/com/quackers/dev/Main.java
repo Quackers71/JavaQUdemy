@@ -24,9 +24,9 @@ public class Main {
             for (int i = 1; i <= digitCount; i++) {
 
                 lastDigit = reversedNumber % 10;
-                System.out.println("lastDigit is " + lastDigit);
+//                System.out.println("lastDigit is " + lastDigit);
                 reversedNumber /= 10;
-                System.out.println("reversedNumber is " + reversedNumber);
+//                System.out.println("reversedNumber is " + reversedNumber);
 
                 switch (lastDigit) {
                     case 0:	System.out.println("Zero");  break;
@@ -47,23 +47,23 @@ public class Main {
     public static int reverse(int number) {
 
 
-        System.out.println("The reverse method");
+//        System.out.println("The reverse method");
         int digit = 0;
         int reversedNumber = 0;
 
         while (number != 0) {
             reversedNumber *= 10;
-            System.out.println("number = " + number);
-            System.out.println("reversedNumber = " + reversedNumber);
+//            System.out.println("number = " + number);
+//            System.out.println("reversedNumber = " + reversedNumber);
             digit = number % 10;
-            System.out.println("digit = " + digit);
-            System.out.println("number = "+ number);
+//            System.out.println("digit = " + digit);
+//            System.out.println("number = "+ number);
             reversedNumber += digit;
-            System.out.println("reversedNumber is now = " + reversedNumber);
+//            System.out.println("reversedNumber is now = " + reversedNumber);
             number /= 10;
-            System.out.println("number is now = " + number);
+//            System.out.println("number is now = " + number);
 
-            System.out.println("******************");
+//            System.out.println("******************");
         }
 
         return reversedNumber;
@@ -75,21 +75,21 @@ public class Main {
         if (number < 0) {
             return -1;
             }
-        System.out.println("The digit count method");
+//        System.out.println("The digit count method");
         int digitCount = 0;
 
-        System.out.println("The number is " + number);
+//        System.out.println("The number is " + number);
         while (number > 0) {
             digitCount++;
             number /= 10;
-            System.out.println("DG++ and num /= 10 is now = " + number);
+//            System.out.println("DG++ and num /= 10 is now = " + number);
             }
         if (digitCount == 0) {
             digitCount++;
             }
-        System.out.println("Final number is " + number);
-        System.out.println("Digit Count is " + digitCount);
-        System.out.println("******************");
+//        System.out.println("Final number is " + number);
+//        System.out.println("Digit Count is " + digitCount);
+//        System.out.println("******************");
         return digitCount;
     }
 
